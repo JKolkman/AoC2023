@@ -6,7 +6,7 @@ public class D02 : IDay
 
     public D02()
     {
-        var filePath = Path.Combine("Data", "Day02");
+        var filePath = Path.Combine("Data", "Day02.txt");
         var input = File.ReadAllLines(filePath);
         
         _games = new Dictionary<string, Game>();

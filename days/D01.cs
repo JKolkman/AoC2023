@@ -7,11 +7,11 @@ namespace AoC2023.Days;
 public class D01 : IDay
 {
     private readonly string[] _input;
-    private static readonly Regex NumbersRegex = new Regex("[^0-9]", RegexOptions.Compiled);
+    private static readonly Regex NumbersRegex = new("[^0-9]", RegexOptions.Compiled);
 
     public D01()
     {
-        var filePath = Path.Combine("Data", "Day01");
+        var filePath = Path.Combine("Data", "Day01.txt");
         _input = File.ReadAllLines(filePath);
     }
 
